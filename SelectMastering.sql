@@ -195,3 +195,5 @@ DELETE FROM student
 UPDATE student
 SET email = 'alice.newemail@example.com'
 WHERE first_name = 'Alice';
+
+

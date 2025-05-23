@@ -23,3 +23,5 @@ FROM student
 GROUP BY is_active
 HAVING is_active = false;
 
+
+
