@@ -1,4 +1,4 @@
-----------------------------------------------------------------------------------------
+-----------------------------------SUB Query-----------------------------------------------------
 CREATE TABLE employees (
     employee_id SERIAL PRIMARY KEY,
     employee_name VARCHAR(50) NOT NULL,
@@ -71,3 +71,4 @@ SELECT * FROM employees WHERE salary > (SELECT  max(salary) FROM employees WHERE
 -- Can return a single value
 -- Can return multiple rows
 -- Can return a single column
+
